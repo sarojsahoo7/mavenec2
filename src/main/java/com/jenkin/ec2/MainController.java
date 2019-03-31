@@ -9,7 +9,7 @@ public class MainController {
 	
 	@GetMapping(value="/{id}")
 	public String retriveName(@PathVariable("id") String name) {
-		return "Welcome " + name + " to Devops";
+		return "Welcome " + name + " to Devops and aws";
 	}
 
 }
